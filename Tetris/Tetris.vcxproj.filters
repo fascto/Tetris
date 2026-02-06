@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen\src">
+      <UniqueIdentifier>{4c9400e9-e8ea-4ad5-8ac7-e1812eee6447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\src\Map">
+      <UniqueIdentifier>{010a671e-6781-4c40-b52e-975743587dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\src\Utils">
+      <UniqueIdentifier>{2ffe1297-7916-42c3-a10a-5d0b1b984662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\src\Pieces">
+      <UniqueIdentifier>{3fa97603-4f1c-4403-a78b-181b537f1c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\src\Score">
+      <UniqueIdentifier>{91d5cc06-8a5d-47df-bef4-dcea4156eefe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tetris.cpp">
+      <Filter>Archivos de origen\src</Filter>
+    </ClCompile>
+    <ClCompile Include="IPiece.cpp">
+      <Filter>Archivos de origen\src\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="LPiece.cpp">
+      <Filter>Archivos de origen\src\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Archivos de origen\src\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="OPiece.cpp">
+      <Filter>Archivos de origen\src\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cpp">
+      <Filter>Archivos de origen\src\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="TPiece.cpp">
+      <Filter>Archivos de origen\src\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleInput.cpp">
+      <Filter>Archivos de origen\src\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="PiecesOrder.cpp">
+      <Filter>Archivos de origen\src\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="PiecesStack.cpp">
+      <Filter>Archivos de origen\src\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="JPiece.cpp">
+      <Filter>Archivos de origen\src\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="ZPiece.cpp">
+      <Filter>Archivos de origen\src\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="SPiece.cpp">
+      <Filter>Archivos de origen\src\Pieces</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IPiece.h">
+      <Filter>Archivos de origen\src\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="LPiece.h">
+      <Filter>Archivos de origen\src\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Archivos de origen\src\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="OPiece.h">
+      <Filter>Archivos de origen\src\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>Archivos de origen\src\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="TPiece.h">
+      <Filter>Archivos de origen\src\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleInput.h">
+      <Filter>Archivos de origen\src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="PiecesOrder.h">
+      <Filter>Archivos de origen\src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ZPiece.h">
+      <Filter>Archivos de origen\src\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="SPiece.h">
+      <Filter>Archivos de origen\src\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="JPiece.h">
+      <Filter>Archivos de origen\src\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="PiecesStack.h">
+      <Filter>Archivos de origen\src\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
